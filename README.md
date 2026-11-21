@@ -68,16 +68,20 @@ A warning if you try it: `zstd -d` exits 0 on truncated input and reports the tr
 
 Separately, Alessandro Maria Masullo released a 940-page human proof of GRH, announced by Ravi Vakil. Brian Conrad had been reviewing it for months and gave feedback that was being incorporated.
 
-The two are not the same argument scaled differently. The Claude route runs through automorphy lifting: Galois cohomology growth bounds, Galois representations attached to regular algebraic cuspidal automorphic representations of GL_n over CM fields, theta lifts between unitary groups. Searching Masullo's 940 pages gives zero hits for Eichler-Shimura, CM field, Hilbert-Samuel, Moriwaki. He uses Weil's explicit formula and the trace formula instead.
+They do not appear to be the same argument scaled differently, and this is the one comparison on this page I cannot make properly. What I can report: the Claude route is described as automorphy lifting, with Galois representations attached to regular algebraic cuspidal automorphic representations of GL_n over CM fields and theta lifts between unitary groups. Masullo's text never says "CM field", "Eichler-Shimura", "Hilbert-Samuel" or "Moriwaki", and the words it does use heavily are "trace formula" (157 times), "Weil" (224) and "explicit formula" (59). "CM" appears 42 times, every one of them a constant like C_M.
 
-Two independent arguments for the same statement is far stronger evidence than one argument checked twice. It is also falsifiable. If someone shows the routes are secretly the same, the point collapses.
+Keyword counts are weak evidence and I am treating them as that. They cannot distinguish a genuinely different route from the same route in different notation, and settling it needs a reader who knows both. If someone shows the routes converge, the argument below collapses, which is the point.
+
+If the two routes are independent, two arguments for one statement is stronger evidence than one argument checked twice.
 
 What argues for caution on the human proof is narrower than "AI found bugs". A catalogue of local errors exists in [mccorvie/riemann-masullo](https://github.com/mccorvie/riemann-masullo), 18 entries marked false as stated with worked counterexamples, as of 21 November. Fifteen are in the appendices, in recaps of standard material; three sit in the body chapters. One has had a second independent agent check it against the page image. None has specialist review. And the draft is unfinished: 30 bare "Return here" notes in the text of the draft, and a Chapter 13 whose main theorem is still a placeholder. One of those placeholders is (3.3.1.11), an exponent that omits the archimedean degree; filed as issue #2814 with a counterexample.
 
-## Why this page exists
+## What this page is not
 
-It is run by [science.markets](https://science.markets/markets/riemann-zeta-critical-line/?ref=gh), which lists a market on whether this proof holds.
+This page is an explainer. It is not research, it does not settle anything, and it is not part of how any market resolves.
 
-That is why the manuscript and the audit were read closely, and it is a reason to read the above sceptically. The commands and numbers are given so you do not have to trust me for them.
+**Nothing here has anything to do with settlement or pricing.** science.markets runs a market on the Riemann hypothesis, and the README you are reading is not a resolution source, not an evidence submission, and not an input to any price. It does not move the market's estimate and it is not consulted when the market settles. Settlement runs on the resolution criteria published on the market page itself, against public primary sources. Read those criteria, not this page.
 
-Corrections are welcome as issues.
+I do have an interest: [science.markets lists the market in question](https://science.markets/markets/riemann-zeta-critical-line/?ref=gh). Treat that as a reason to check the numbers rather than trust the prose. Every command and count on this page is given so you can reproduce it, and where I could not check something I have said so.
+
+Corrections are welcome as [issues](https://github.com/science-markets/riemann-hypothesis-verified/issues). Where this page and a source disagree, the source is right.
