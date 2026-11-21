@@ -1,4 +1,4 @@
-Enter file contents here# What the Lean verification of the Riemann Hypothesis claim establishes
+# What the Lean verification of the Riemann Hypothesis claim establishes
 
 On 20 November 2026, Levent Alpöge published a purported proof of the Generalized Riemann Hypothesis, produced with Claude, together with a Lean 4 formalization. Within hours an independent verification audit appeared and a set of kernel checks ran to completion.
 
