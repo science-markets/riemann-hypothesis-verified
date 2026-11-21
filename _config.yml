@@ -1,0 +1,3 @@
+title: "Riemann Hypothesis: what the Lean verification establishes"
+description: "What the Lean kernel checks show about the 2026 GRH proof claim, what they do not, and how to reproduce each number."
+theme: jekyll-theme-primer
