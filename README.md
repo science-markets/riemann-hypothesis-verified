@@ -68,9 +68,9 @@ A warning if you try it: `zstd -d` exits 0 on truncated input and reports the tr
 
 Separately, Alessandro Maria Masullo released a 940-page human proof of GRH, announced by Ravi Vakil. Brian Conrad had been reviewing it for months and gave feedback that was being incorporated.
 
-They do not appear to be the same argument scaled differently, and this is the one comparison on this page I cannot make properly. What I can report: the Claude route is described as automorphy lifting, with Galois representations attached to regular algebraic cuspidal automorphic representations of GL_n over CM fields and theta lifts between unitary groups. Masullo's text never says "CM field", "Eichler-Shimura", "Hilbert-Samuel" or "Moriwaki", and the words it does use heavily are "trace formula" (157 times), "Weil" (224) and "explicit formula" (59). "CM" appears 42 times, every one of them a constant like C_M.
+They do not appear to be the same argument scaled differently, though I cannot settle that. What I can report: the Claude route is described as automorphy lifting, with Galois representations attached to regular algebraic cuspidal automorphic representations of GL_n over CM fields and theta lifts between unitary groups. Masullo's text never says "CM field", "Eichler-Shimura", "Hilbert-Samuel" or "Moriwaki", and the words it does use heavily are "trace formula" (157 times), "Weil" (224) and "explicit formula" (59). "CM" appears 42 times, every one of them a constant like C_M.
 
-Keyword counts are weak evidence and I am treating them as that. They cannot distinguish a genuinely different route from the same route in different notation, and settling it needs a reader who knows both. If someone shows the routes converge, the argument below collapses, which is the point.
+Keyword counts are weak evidence and I am treating them as that. They cannot distinguish a genuinely different route from the same route in different notation, and settling it needs a reader who knows both. If someone shows the routes converge, the point collapses. That is the test.
 
 If the two routes are independent, two arguments for one statement is stronger evidence than one argument checked twice.
 
