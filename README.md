@@ -45,7 +45,7 @@ Three independent kernel implementations agreeing matters because a single kerne
 The audit's own caveats:
 
 1. The build was unsandboxed, calling lean directly rather than through lake build. A 77-module sample is byte-identical to a real lake build; the full set was not compared.
-2. Export provenance inherits that. A sandboxed re-export should hash identically if exporting is deterministic. That comparison has not been made.
+2. Export provenance inherits that. A sandboxed re-export should hash identically if exporting is deterministic. The challenge export does match the one this repository’s CI publishes, which is a point for determinism on that side. No such comparison exists for the 61.6 GB solution export, so the sandboxed re-export that would settle it has not been run.
 3. A kernel pass is conditional on the kernels being correct and on Mathlib's definitions meaning what they are intended to mean.
 4. The lake comparator and the Lean-kernel replay of the export were still running when the audit page was last updated.
 
@@ -78,6 +78,6 @@ What argues for caution on the human proof is narrower than "AI found bugs". A c
 
 It is run by [science.markets](https://science.markets/markets/riemann-zeta-critical-line/?ref=gh), which lists a market on whether this proof holds.
 
-That is why the manuscript and the audit were read closely, and it is a reason to read the above sceptically. I have a position. The commands and numbers are given so you do not have to trust me for them.
+That is why the manuscript and the audit were read closely, and it is a reason to read the above sceptically. The commands and numbers are given so you do not have to trust me for them.
 
 Corrections are welcome as issues.
