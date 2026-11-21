@@ -72,7 +72,7 @@ The two are not the same argument scaled differently. The Claude route runs thro
 
 Two independent arguments for the same statement is far stronger evidence than one argument checked twice. It is also falsifiable. If someone shows the routes are secretly the same, the point collapses.
 
-What argues for caution on the human proof is narrower than "AI found bugs". A catalogue of local errors exists in [mccorvie/riemann-masullo](https://github.com/mccorvie/riemann-masullo), eleven entries marked false as stated with worked counterexamples. All eleven are in the appendices, in recaps of standard material. None has specialist review. And the draft is unfinished: 27 bare "Return here" notes across pages 199-483, and a Chapter 13 that states no theorem.
+What argues for caution on the human proof is narrower than "AI found bugs". A catalogue of local errors exists in [mccorvie/riemann-masullo](https://github.com/mccorvie/riemann-masullo), 18 entries marked false as stated with worked counterexamples, as of 21 November. Fifteen are in the appendices, in recaps of standard material; three sit in the body chapters. One has had a second independent agent check it against the page image. None has specialist review. And the draft is unfinished: 27 bare "Return here" notes across pages 199-483, and a Chapter 13 that states no theorem.
 
 ## Why this page exists
 
