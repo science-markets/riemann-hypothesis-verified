@@ -40,6 +40,8 @@ A Lean proof can depend on `sorryAx`, a placeholder that proves anything, and st
 
 Three independent kernel implementations agreeing matters because a single kernel bug would fool only one of them.
 
+A separate check reaches the same place by a different route. A static audit of the source archive ([Janson79jc/lean4-static-audit](https://github.com/Janson79jc/lean4-static-audit)) scans 175,187 files with a lexical parser and an import-graph walk, no kernel involved, and finds zero occurrences of `sorry`, `sorryAx`, `native_decide`, `trustCompiler`, `axiom` or `opaque`. Two methods that share no code agree on the file count and on the absence of escape hatches. It is not a proof of correctness, and the audit says so itself, but a text scan and a kernel replay failing to disagree is worth more than either alone.
+
 ## What was not checked
 
 The audit's own caveats:
