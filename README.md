@@ -74,7 +74,11 @@ Keyword counts are weak evidence and I am treating them as that. They cannot dis
 
 If the two routes are independent, two arguments for one statement is stronger evidence than one argument checked twice.
 
-What argues for caution on the human proof is narrower than "AI found bugs". A catalogue of local errors exists in [mccorvie/riemann-masullo](https://github.com/mccorvie/riemann-masullo), 18 entries marked false as stated with worked counterexamples, as of 21 November. Fifteen are in the appendices, in recaps of standard material; three sit in the body chapters. One has had a second independent agent check it against the page image. None has specialist review. And the draft is unfinished: 30 bare "Return here" notes in the text of the draft, and a Chapter 13 whose main theorem is still a placeholder. One of those placeholders is (3.3.1.11), an exponent that omits the archimedean degree; filed as issue #2814 with a counterexample.
+What argues for caution on the human proof is narrower than "AI found bugs". A catalogue of local errors is kept in [mccorvie/riemann-masullo](https://github.com/mccorvie/riemann-masullo): as of 24 November, 277 entries, each a place where the printed statement fails with a worked counterexample. 226 are in the body chapters, 51 in the appendices. 187 have been rechecked against the page image by a second and then a third reader, the third tasked with refuting the second. 84 are refutations checked by Lean, meaning the failure is a theorem rather than an argument.
+
+None of that has specialist review. The entries are machine-found and machine-checked, and a number theorist who knows the surrounding literature has not signed off on any of them. It is evidence that the draft has many local problems, not a verdict on the proof.
+
+The draft is also unfinished: 30 bare "Return here" notes in the text, and a Chapter 13 whose main theorem is still a placeholder. One placeholder, (3.3.1.11), states a bound whose exponent omits the archimedean degree. I worked out a counterexample over Q(i) and filed it as issue #2814 before finding it was already entry F16, filed five hours earlier. That is the normal outcome for this kind of check and worth saying plainly: the useful work here is being done by several people at once, and the catalogue is the product, not any one entry.
 
 ## What this page is not
 
